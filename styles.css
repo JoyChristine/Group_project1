@@ -1,0 +1,54 @@
+.button{
+    
+    background-color: blueviolet;
+    font-family: 'Ubuntu';
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    width:150px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 500;
+    height: 50px;
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    
+}
+.button:hover{
+  background-color: #3448b9;
+}
+.flex-container {
+    display: flex;
+    margin-left: 50px;
+    margin-top: 500px;
+}
+
+/* .flex-child-bts,.flex-child-text{
+     flex: 1; 
+    border: 2px solid yellow; 
+}   */
+
+
+.flex-child-text{
+    margin-left:22px;
+}
+
+.flex-child:first-child {
+    margin-right:1%;
+} 
+.flex-child text{
+    margin-left:270px;
+   
+
+}
+.item{
+    margin-top:2px;
+    width:350px;
+}
+body{
+    background-color: #918591d3;
+}
