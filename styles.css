@@ -1,3 +1,50 @@
+/* resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #918591d3;
+}
+
+main {
+    padding: 5%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5% 0;
+}
+
+.hero-intro .text {
+    width: 50%;
+}
+
+.hero-intro .text p {
+    font-size: 5vw;
+    color: #fff;
+    font-weight: 600;
+}
+
+.hero-intro .text p span {
+    background: -webkit-linear-gradient(90deg, blueviolet, #d900ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero-intro .image {
+    width: 50%;
+}
+
 .button {
     background-color: blueviolet;
     font-family: "Ubuntu";
@@ -21,8 +68,8 @@
 }
 .flex-container {
     display: flex;
-    margin-left: 50px;
-    margin-top: 500px;
+    /* margin-left: 50px; */
+    /* margin-top: 500px; */
 }
 
 /* .flex-child-bts,.flex-child-text{
@@ -43,7 +90,4 @@
 .item {
     margin-top: 2px;
     width: 350px;
-}
-body {
-    background-color: #918591d3;
 }
