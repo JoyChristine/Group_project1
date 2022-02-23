@@ -6,12 +6,12 @@
 }
 
 body {
-    background-color: #918591d3;
+    background: linear-gradient(to bottom right, #1d1935, blueviolet);
 }
 
 main {
     padding: 5%;
-    height: 90vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -35,7 +35,7 @@ main {
 }
 
 .hero-intro .text p span {
-    background: -webkit-linear-gradient(90deg, blueviolet, #d900ff);
+    background: -webkit-linear-gradient(360deg, blueviolet, #d900ff);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -48,18 +48,17 @@ main {
 .button {
     background-color: blueviolet;
     font-family: "Ubuntu";
-    border-radius: 8px;
+    border-radius: 0.5vw;
     border-style: none;
     box-sizing: border-box;
-    width: 150px;
+    width: 7vw;
     color: #ffffff;
     cursor: pointer;
     display: inline-block;
-    font-size: 15px;
+    font-size: 0.8vw;
     font-weight: 500;
-    height: 50px;
     outline: none;
-    padding: 10px 16px;
+    padding: 10% 5%;
     position: relative;
     text-align: center;
 }
@@ -68,8 +67,16 @@ main {
 }
 .flex-container {
     display: flex;
-    /* margin-left: 50px; */
-    /* margin-top: 500px; */
+}
+
+.flex-container .right {
+    display: flex;
+    width: 35%;
+}
+
+.flex-container .left {
+    display: flex;
+    width: 65%;
 }
 
 /* .flex-child-bts,.flex-child-text{
@@ -78,16 +85,17 @@ main {
 }   */
 
 .flex-child-text {
-    margin-left: 22px;
+    margin-left: 5%;
 }
 
 .flex-child:first-child {
     margin-right: 1%;
 }
-.flex-child text {
-    margin-left: 270px;
-}
+
 .item {
     margin-top: 2px;
-    width: 350px;
+    /* width: 350px; */
+    color: #fff;
+    font-size: 0.8vw;
+    line-height: 1vw;
 }
