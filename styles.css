@@ -17,11 +17,44 @@ main {
     justify-content: center;
 }
 
+.play {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.play .icon {
+    background-color: #38314e;
+    width: 2.5vw;
+    height: 2.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: 0.001vw 0 0.3vw #fff;
+}
+
+.play .icon svg {
+    color: #fff;
+    width: 1vw;
+    height: 1vw;
+}
+
+.play .message {
+    padding-left: 1%;
+}
+
+.play .message h1 {
+    color: #fff;
+    font-size: 1.1vw;
+}
+
 .hero-intro {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 5% 0;
+    margin-top: -4%;
 }
 
 .hero-intro .text {
