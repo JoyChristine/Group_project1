@@ -7,6 +7,7 @@
 
 body {
     background: linear-gradient(to bottom right, #1d1935, blueviolet);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 main {
@@ -131,4 +132,34 @@ main {
     color: #fff;
     font-size: 0.8vw;
     line-height: 1vw;
+}
+.down {
+    display: flex;
+    margin-top: 5%;
+    align-items: center;
+
+}
+.arrow{
+    background-color: #38314e;;
+    border-radius: 50%;
+    padding:0.7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0.001vw 0 0.3vw 0 #fff;
+}
+.arrow svg {
+    width: 0.8vw;
+    height: 0.8vw;
+    color: #fff;
+  
+    
+}
+.msg{
+    padding-left:2%;
+    color: white;
+    
+}
+.msg p{
+    font-size: small;
 }
