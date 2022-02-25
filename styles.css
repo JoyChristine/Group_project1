@@ -17,7 +17,41 @@ main {
     flex-direction: column;
     justify-content: center;
 }
-
+.header{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    margin-bottom:7% ;
+}
+.links{
+    margin-right:35vw;
+    
+    
+}
+.links li{
+   
+    text-align: center;
+    display: inline-flex;
+    margin: 0 2vw 0.2vw 0;
+    
+}
+.contact .bts{
+    background-color: blueviolet;
+    font-family: "Ubuntu";
+    border-radius: 0.5vw;
+    border-style: none;
+    box-sizing: border-box;
+    width: 7vw;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1vw;
+    font-weight: 500;
+    outline: none;
+    padding: 10% 5%;
+    position: relative;
+    text-align: center;
+}
 .play {
     display: flex;
     align-items: center;
